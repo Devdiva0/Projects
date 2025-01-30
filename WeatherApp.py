@@ -12,3 +12,4 @@ w_dic=json.loads(r.text)
 a=w_dic["current"]["temp_c"]
 print(f"The cuurent weather in {city} is {a} degrees ")
 os.system(f"say 'The cuurent weather in {city} is {a} degrees '")
+
